@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 
-const colors = require('./styles/colors');
+const colors = require('tailwindcss/colors');
+const themeColors = require('./styles/colors');
 
 module.exports = {
   content: [
@@ -12,8 +13,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'chatbar-chat-highlighted': colors['chatbar-chat-highlighted'],
-        'chatbar-folder-highlighted': colors['chatbar-folder-highlighted'],
+        'chatbar-chat-highlighted': themeColors['chatbar-chat-highlighted'],
+        'chatbar-folder-highlighted': themeColors['chatbar-folder-highlighted'],
+        'chatbar-settings-item-highlighted': colors.gray[500],
       },
     },
   },
