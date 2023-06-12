@@ -14,8 +14,10 @@ module.exports = {
     extend: {
       colors: {
         'chatbar-chat-highlighted': themeColors['chatbar-chat-highlighted'],
-        'chatbar-folder-highlighted': themeColors['chatbar-folder-highlighted'],
+        'sidebar-folder-highlighted': themeColors['sidebar-folder-highlighted'],
         'chatbar-settings-item-highlighted': colors.gray[500],
+        'promptbar-prompt-highlighted':
+          themeColors['promptbar-prompt-highlighted'],
       },
     },
   },

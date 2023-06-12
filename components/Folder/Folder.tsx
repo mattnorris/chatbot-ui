@@ -70,7 +70,7 @@ const Folder = ({
   };
 
   const highlightDrop = (e: any) => {
-    e.target.style.background = colors['chatbar-folder-highlighted'];
+    e.target.style.background = colors['sidebar-folder-highlighted'];
   };
 
   const removeHighlight = (e: any) => {
@@ -97,7 +97,7 @@ const Folder = ({
     <>
       <div className="relative flex items-center">
         {isRenaming ? (
-          <div className="flex w-full items-center gap-3 bg-chatbar-folder-highlighted/90 p-3">
+          <div className="flex w-full items-center gap-3 bg-sidebar-folder-highlighted/90 p-3">
             {isOpen ? (
               <IconCaretDown size={18} />
             ) : (
@@ -114,7 +114,7 @@ const Folder = ({
           </div>
         ) : (
           <button
-            className={`flex w-full cursor-pointer items-center gap-3 rounded-lg p-3 text-sm transition-colors duration-200 hover:bg-chatbar-folder-highlighted/90`}
+            className={`flex w-full cursor-pointer items-center gap-3 rounded-lg p-3 text-sm transition-colors duration-200 hover:bg-sidebar-folder-highlighted/90`}
             onClick={() => setIsOpen(!isOpen)}
             onDrop={(e) => dropHandler(e)}
             onDragOver={allowDrop}
