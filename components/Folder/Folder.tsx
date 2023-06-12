@@ -70,7 +70,7 @@ const Folder = ({
   };
 
   const highlightDrop = (e: any) => {
-    e.target.style.background = colors['sidebar-folder-highlighted'];
+    e.target.style.background = colors['sidebar-drop-highlighted'];
   };
 
   const removeHighlight = (e: any) => {
