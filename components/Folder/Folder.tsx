@@ -20,6 +20,8 @@ import HomeContext from '@/pages/api/home/home.context';
 
 import SidebarActionButton from '@/components/Buttons/SidebarActionButton';
 
+import colors from '@/styles/colors';
+
 interface Props {
   currentFolder: FolderInterface;
   searchTerm: string;
@@ -68,7 +70,7 @@ const Folder = ({
   };
 
   const highlightDrop = (e: any) => {
-    e.target.style.background = '#343541';
+    e.target.style.background = colors['chatbar-folder-highlighted'];
   };
 
   const removeHighlight = (e: any) => {
@@ -95,7 +97,7 @@ const Folder = ({
     <>
       <div className="relative flex items-center">
         {isRenaming ? (
-          <div className="flex w-full items-center gap-3 bg-[#343541]/90 p-3">
+          <div className="flex w-full items-center gap-3 bg-chatbar-folder-highlighted/90 p-3">
             {isOpen ? (
               <IconCaretDown size={18} />
             ) : (
@@ -112,7 +114,7 @@ const Folder = ({
           </div>
         ) : (
           <button
-            className={`flex w-full cursor-pointer items-center gap-3 rounded-lg p-3 text-sm transition-colors duration-200 hover:bg-[#343541]/90`}
+            className={`flex w-full cursor-pointer items-center gap-3 rounded-lg p-3 text-sm transition-colors duration-200 hover:bg-chatbar-folder-highlighted/90`}
             onClick={() => setIsOpen(!isOpen)}
             onDrop={(e) => dropHandler(e)}
             onDragOver={allowDrop}
