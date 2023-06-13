@@ -1,9 +1,11 @@
 declare module '@/styles/colors' {
   const colors: {
     'chat': string;
-    'chat-input-generate-button': string,
-    'chat-input-generate-button-working': string,
-    'chat-input-plugin-select': string,
+    'chat-input-generate-button': string;
+    'chat-input-generate-button-working': string;
+    'chat-input-plugin-select': string;
+    'chat-message-assistant': string;
+    'chat-message-user': string;
     'chatbar-chat-highlighted': string;
     'chatbar-settings-item-highlighted': string;
     'promptbar-prompt-highlighted': string;

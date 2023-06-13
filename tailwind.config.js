@@ -18,6 +18,8 @@ module.exports = {
         'chat-input-generate-button-working':
           themeColors['chat-input-generate-button-working'],
         'chat-input-plugin-select': themeColors['chat-input-plugin-select'],
+        'chat-message-assistant': themeColors['chat-message-assistant'],
+        'chat-message-user': themeColors['chat-message-user'],
         'chatbar-chat-highlighted': themeColors['chatbar-chat-highlighted'],
         'sidebar-folder-highlighted': themeColors['sidebar-folder-highlighted'],
         'chatbar-settings-item-highlighted': colors.gray[500],
