@@ -21,6 +21,7 @@ module.exports = {
         'chat-message-assistant': themeColors['chat-message-assistant'],
         'chat-message-user': themeColors['chat-message-user'],
         'chatbar-chat-highlighted': themeColors['chatbar-chat-highlighted'],
+        'sidebar-button': colors.neutral[400],
         'sidebar-folder-highlighted': themeColors['sidebar-folder-highlighted'],
         'chatbar-settings-item-highlighted': colors.gray[500],
         'promptbar-prompt-highlighted':
