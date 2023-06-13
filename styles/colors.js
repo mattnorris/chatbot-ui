@@ -1,4 +1,8 @@
 module.exports = {
+  chat: '#343541',
+  'chat-input-generate-button': '#343541',
+  'chat-input-generate-button-working': '#343541',
+  'chat-input-plugin-select': '#343541',
   'chatbar-chat-highlighted': '#343541',
   'promptbar-prompt-highlighted': '#343541',
   'sidebar-drop-highlighted': '#343541',
