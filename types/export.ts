@@ -1,13 +1,14 @@
 import { Conversation, Message } from './chat';
 import { FolderInterface } from './folder';
-import { OpenAIModel } from './openai';
 import { Prompt } from './prompt';
+
 
 export type SupportedExportFormats =
   | ExportFormatV1
   | ExportFormatV2
   | ExportFormatV3
   | ExportFormatV4;
+
 export type LatestExportFormat = ExportFormatV4;
 
 ////////////////////////////////////////////////////////////////////////////////////////////
